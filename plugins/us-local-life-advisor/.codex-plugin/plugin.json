@@ -1,0 +1,32 @@
+{
+  "name": "us-local-life-advisor",
+  "version": "0.1.0",
+  "description": "US local life decision support using hosted structured local data.",
+  "author": {
+    "name": "Spider AI"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "us-local-data",
+    "local-life",
+    "neighborhoods",
+    "moving",
+    "safety"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "US Local Life Advisor",
+    "shortDescription": "Answer US local life questions with grounded local data and concise recommendations.",
+    "longDescription": "Public beta plugin for data-grounded US local life decision support. Helps evaluate US cities, neighborhoods, addresses, and everyday local choices using hosted structured local data plus careful synthesis.",
+    "developerName": "Spider AI",
+    "category": "Productivity",
+    "capabilities": [
+      "MCP",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Help me evaluate a US city, neighborhood, address, or local decision using local data."
+    ]
+  }
+}

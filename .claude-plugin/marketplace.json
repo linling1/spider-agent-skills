@@ -1,0 +1,17 @@
+{
+  "name": "spider-agent-skills",
+  "owner": {
+    "name": "Spider AI"
+  },
+  "metadata": {
+    "description": "Agent skills for Spider hosted data capabilities.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "us-local-life-advisor",
+      "description": "US local life decision support using hosted structured local data.",
+      "source": "./plugins/us-local-life-advisor"
+    }
+  ]
+}

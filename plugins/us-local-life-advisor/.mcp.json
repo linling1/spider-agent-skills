@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "spider-us-local-data": {
+      "type": "http",
+      "url": "http://spider-mcp.nb-sandbox.com/us-local-data/mcp"
+    }
+  }
+}

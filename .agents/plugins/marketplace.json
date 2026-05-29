@@ -1,0 +1,20 @@
+{
+  "name": "spider-agent-skills",
+  "interface": {
+    "displayName": "Spider Agent Skills"
+  },
+  "plugins": [
+    {
+      "name": "us-local-life-advisor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/us-local-life-advisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
